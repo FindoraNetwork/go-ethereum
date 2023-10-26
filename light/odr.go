@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/core"
+	"github.com/FindoraNetwork/go-ethereum/core/rawdb"
+	"github.com/FindoraNetwork/go-ethereum/core/txpool"
+	"github.com/FindoraNetwork/go-ethereum/core/types"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/trie/trienode"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

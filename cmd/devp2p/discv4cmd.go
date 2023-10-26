@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/FindoraNetwork/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/crypto"
+	"github.com/FindoraNetwork/go-ethereum/internal/flags"
+	"github.com/FindoraNetwork/go-ethereum/p2p/discover"
+	"github.com/FindoraNetwork/go-ethereum/p2p/enode"
+	"github.com/FindoraNetwork/go-ethereum/params"
 	"github.com/urfave/cli/v2"
 )
 

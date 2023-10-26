@@ -22,15 +22,15 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/consensus/ethash"
+	"github.com/FindoraNetwork/go-ethereum/core/rawdb"
+	"github.com/FindoraNetwork/go-ethereum/core/vm"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/params"
+	"github.com/FindoraNetwork/go-ethereum/trie"
+	"github.com/FindoraNetwork/go-ethereum/trie/triedb/pathdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
 )
 
 func TestInvalidCliqueConfig(t *testing.T) {

@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/FindoraNetwork/go-ethereum/common/mclock"
+	"github.com/FindoraNetwork/go-ethereum/eth/ethconfig"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/les/flowcontrol"
+	"github.com/FindoraNetwork/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

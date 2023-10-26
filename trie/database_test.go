@@ -17,10 +17,10 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
+	"github.com/FindoraNetwork/go-ethereum/core/rawdb"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/trie/triedb/hashdb"
+	"github.com/FindoraNetwork/go-ethereum/trie/triedb/pathdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/core/rawdb"
+	"github.com/FindoraNetwork/go-ethereum/eth/downloader"
+	"github.com/FindoraNetwork/go-ethereum/eth/protocols/eth"
+	"github.com/FindoraNetwork/go-ethereum/log"
 )
 
 const (

@@ -20,17 +20,17 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/core"
+	"github.com/FindoraNetwork/go-ethereum/core/state"
+	"github.com/FindoraNetwork/go-ethereum/core/txpool"
+	"github.com/FindoraNetwork/go-ethereum/core/types"
+	"github.com/FindoraNetwork/go-ethereum/light"
+	"github.com/FindoraNetwork/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/metrics"
+	"github.com/FindoraNetwork/go-ethereum/rlp"
+	"github.com/FindoraNetwork/go-ethereum/trie"
+	"github.com/FindoraNetwork/go-ethereum/trie/trienode"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests
