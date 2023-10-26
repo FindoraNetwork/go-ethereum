@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/common/math"
+	"github.com/FindoraNetwork/go-ethereum/crypto"
+	"github.com/FindoraNetwork/go-ethereum/log"
 )
 
 // Config are the configuration options for the Interpreter

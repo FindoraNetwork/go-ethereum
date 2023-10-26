@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/crypto"
+	"github.com/FindoraNetwork/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/p2p"
+	"github.com/FindoraNetwork/go-ethereum/rpc"
 )
 
 const (

@@ -26,11 +26,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/ethdb/leveldb"
+	"github.com/FindoraNetwork/go-ethereum/ethdb/memorydb"
+	"github.com/FindoraNetwork/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

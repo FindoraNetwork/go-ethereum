@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/core/types"
+	"github.com/FindoraNetwork/go-ethereum/log"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

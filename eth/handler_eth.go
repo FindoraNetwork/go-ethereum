@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/core"
+	"github.com/FindoraNetwork/go-ethereum/core/types"
+	"github.com/FindoraNetwork/go-ethereum/eth/protocols/eth"
+	"github.com/FindoraNetwork/go-ethereum/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

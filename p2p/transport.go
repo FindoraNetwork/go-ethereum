@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/common/bitutil"
+	"github.com/FindoraNetwork/go-ethereum/metrics"
+	"github.com/FindoraNetwork/go-ethereum/p2p/rlpx"
+	"github.com/FindoraNetwork/go-ethereum/rlp"
 )
 
 const (

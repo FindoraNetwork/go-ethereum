@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/common/bitutil"
+	"github.com/FindoraNetwork/go-ethereum/core/bloombits"
+	"github.com/FindoraNetwork/go-ethereum/core/rawdb"
+	"github.com/FindoraNetwork/go-ethereum/core/types"
+	"github.com/FindoraNetwork/go-ethereum/ethdb"
 )
 
 const (
