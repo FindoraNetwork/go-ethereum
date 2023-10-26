@@ -24,10 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/FindoraNetwork/go-ethereum/common"
+	"github.com/FindoraNetwork/go-ethereum/common/math"
+	"github.com/FindoraNetwork/go-ethereum/rlp"
 )
 
 var (
@@ -218,23 +217,23 @@ func sanityCheckSignature(v *big.Int, r *big.Int, s *big.Int, maybeProtected boo
 		return ErrUnexpectedProtection
 	}
 
-	var plainV byte
-	if isProtectedV(v) {
-		chainID := deriveChainId(v).Uint64()
-		plainV = byte(v.Uint64() - 35 - 2*chainID)
-	} else if maybeProtected {
-		// Only EIP-155 signatures can be optionally protected. Since
-		// we determined this v value is not protected, it must be a
-		// raw 27 or 28.
-		plainV = byte(v.Uint64() - 27)
-	} else {
-		// If the signature is not optionally protected, we assume it
-		// must already be equal to the recovery id.
-		plainV = byte(v.Uint64())
-	}
-	if !crypto.ValidateSignatureValues(plainV, r, s, false) {
-		return ErrInvalidSig
-	}
+	// var plainV byte
+	// if isProtectedV(v) {
+	// 	// chainID := deriveChainId(v).Uint64()
+	// 	// plainV = byte(v.Uint64() - 35 - 2*chainID)
+	// } else if maybeProtected {
+	// 	// Only EIP-155 signatures can be optionally protected. Since
+	// 	// we determined this v value is not protected, it must be a
+	// 	// raw 27 or 28.
+	// 	// plainV = byte(v.Uint64() - 27)
+	// } else {
+	// 	// If the signature is not optionally protected, we assume it
+	// 	// must already be equal to the recovery id.
+	// 	// plainV = byte(v.Uint64())
+	// }
+	// if !crypto.ValidateSignatureValues(plainV, r, s, false) {
+	// 	return ErrInvalidSig
+	// }
 
 	return nil
 }
