@@ -544,13 +544,13 @@ func decodeSignature(sig []byte) (r, s, v *big.Int) {
 }
 
 func recoverPlain(sighash common.Hash, R, S, Vb *big.Int, homestead bool) (common.Address, error) {
-	if Vb.BitLen() > 8 {
-		return common.Address{}, ErrInvalidSig
-	}
+	// if Vb.BitLen() > 8 {
+	// 	return common.Address{}, ErrInvalidSig
+	// }
 	V := byte(Vb.Uint64() - 27)
-	if !crypto.ValidateSignatureValues(V, R, S, homestead) {
-		return common.Address{}, ErrInvalidSig
-	}
+	// if !crypto.ValidateSignatureValues(V, R, S, homestead) {
+	// 	return common.Address{}, ErrInvalidSig
+	// }
 	// encode the signature in uncompressed format
 	r, s := R.Bytes(), S.Bytes()
 	sig := make([]byte, crypto.SignatureLength)
